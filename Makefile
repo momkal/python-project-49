@@ -16,3 +16,9 @@ brain-gcd:
 	uv run brain-gcd
 brain-progression:
 	uv run brain-progression
+brain-prime:
+	uv run brain-prime
+cam:
+	asciinema rec brain-progression.cast
+uplocam:
+	asciinema upload brain-progression.cast

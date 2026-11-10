@@ -17,17 +17,15 @@ def main():
         answer = prompt.string("Your answer: ")
         if number %2 == 0:
             answer_correct = "yes"
-            answer_incorrect = "no"
         else:
             answer_correct = "no"
-            answer_incorrect = "yes"
         if answer == answer_correct:
             print("Correct!")
             count += 1
         else:
-            print(f"\'{answer_incorrect}\' is wrong answer ;(. Correct answer was \'{answer_correct}\'")
-            print(f"Let's try again, {name}")
+            print(f"\'{answer}\' is wrong answer ;(. Correct answer was \'{answer_correct}\'.")
+            print(f"Let's try again, {name}!")
             break
     if count == 3:
-        print(f"Congratulations, {name}")
+        print(f"Congratulations, {name}!")
     
