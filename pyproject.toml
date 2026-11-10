@@ -8,13 +8,13 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "pypl>=40.10",
     "ruff>=0.17.4",
 ]
 
 [project.scripts]
 python-project-49 = "python_project_49:main"
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
 
 [build-system]
 requires = ["hatchling"]

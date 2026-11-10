@@ -7,27 +7,11 @@ name = "hexlet-code"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
-    { name = "pypl" },
     { name = "ruff" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "pypl", specifier = ">=40.10" },
-    { name = "ruff", specifier = ">=0.17.4" },
-]
-
-[[package]]
-name = "pypl"
-version = "40.10"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "svgwrite" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/02/e8/67cbdc59ea5a2b0efadaf9ce922d2be06a7a18f0d3f4ede02fd72ecfe986/pypl-40.10.tar.gz", hash = "sha256:9aa1fbf5cf934eeca94e67d014a59ba83c0f79476d1621ba6439146078d5ff67", size = 4018, upload-time = "2017-02-07T19:46:49.407Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/19/20/28bfd97a71a7ffb3d178f6a86142dcc5978654364a4c8d4962adbea60779/pypl-40.10-py3-none-any.whl", hash = "sha256:cad789a4d75b221cd77ed3b8d0c702a5ae57d0ca708b1f6ef155ab86b810830f", size = 6080, upload-time = "2017-02-07T19:46:47.576Z" },
-]
+requires-dist = [{ name = "ruff", specifier = ">=0.17.4" }]
 
 [[package]]
 name = "ruff"
@@ -52,13 +36,4 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/b9/ab/d8e407669ffe5014429baf780c2df47e001968a6e4c17f615e2e7b13a9ba/ruff-0.17.4-py3-none-win32.whl", hash = "sha256:3971a78cba76298b284c8321e6d40d93045ed348bec5c369d85099efc97fb7cf", size = 9931993, upload-time = "2026-11-05T18:52:11.169Z" },
     { url = "https://files.pythonhosted.org/packages/bd/15/42af8a72d8946e3c9efd2bbf6641e462b6832783b0d043d63ef5b280ba7f/ruff-0.17.4-py3-none-win_amd64.whl", hash = "sha256:67c5a894fc054cf41f75f7afa24815de5a74329d97634126c2a1015740ff4e8c", size = 10292922, upload-time = "2026-11-05T18:52:13.436Z" },
     { url = "https://files.pythonhosted.org/packages/68/9e/f1dbffcfb8ff25dadbc21f87a8b73c3848abe4abada9d4b08ccef8bec40c/ruff-0.17.4-py3-none-win_arm64.whl", hash = "sha256:181ae38a9a8fb94925bf7d0794327b48d7fd7f4b50cfd84c0e999cc09ef8d131", size = 9889396, upload-time = "2026-11-05T18:52:15.549Z" },
-]
-
-[[package]]
-name = "svgwrite"
-version = "1.4.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/16/c1/263d4e93b543390d86d8eb4fc23d9ce8a8d6efd146f9427364109004fa9b/svgwrite-1.4.3.zip", hash = "sha256:a8fbdfd4443302a6619a7f76bc937fc683daf2628d9b737c891ec08b8ce524c3", size = 189516, upload-time = "2022-07-14T14:05:26.107Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/84/15/640e399579024a6875918839454025bb1d5f850bb70d96a11eabb644d11c/svgwrite-1.4.3-py3-none-any.whl", hash = "sha256:bb6b2b5450f1edbfa597d924f9ac2dd099e625562e492021d7dd614f65f8a22d", size = 67122, upload-time = "2022-07-14T14:05:24.459Z" },
 ]
