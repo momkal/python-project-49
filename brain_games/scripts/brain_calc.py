@@ -25,7 +25,7 @@ def main():
                 answer_correct = number_first - number_second
             case "+":
                 answer_correct = number_first + number_second
-        if answer_correct == int(answer):
+        if str(answer_correct) == answer:
             print("Correct!")
             count += 1
         else:

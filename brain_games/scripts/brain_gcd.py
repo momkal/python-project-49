@@ -18,12 +18,12 @@ def main():
         print(f"Question: {number_first} {number_second}")
         answer = prompt.string("Your answer: ")
         answer_correct = gcd(number_first, number_second)
-        if int(answer) == answer_correct:
+        if answer == str(answer_correct):
             print("Correct!")
             count += 1
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{answer_correct}'")
-            print(f"Let's try adain, {name}!")
+            print(f"Let's try again, {name}!")
             break
     if count == 3:
         print(f"Congratulations, {name}!")
