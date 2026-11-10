@@ -10,7 +10,7 @@ def main():
     welcome()
     name = welcome_user()
     count = 0
-    print("Answer \"yes\" if the number is even, otherwise answer \"no\"")
+    print("Answer \"yes\" if the number is even, otherwise answer \"no\".")
     while count < 3:
         number = randint(0,100)
         print(f"Question: {number}")

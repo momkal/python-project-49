@@ -10,7 +10,7 @@ def main():
     welcome()
     name = welcome_user()
     count = 0
-    print("What result of the expression?")
+    print("What is theresult of the expression?")
     operands = ["+", "-", "*"]
     while count < 3:
         number_first = randint(0, 100)
