@@ -9,7 +9,7 @@ def main():
     print("Welcome to the Brain Games!")
     name = welcome_user()
     count = 0
-    print("Answer \"yes\" if the number is prime. Otherwise answer \"no\".")
+    print("Answer \"yes\" if given number is prime. Otherwise answer \"no\".")
     while count < 3:
         number = randint(0,100)
         print(f"Question: {number}")

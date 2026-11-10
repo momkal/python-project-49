@@ -7,7 +7,7 @@ from brain_games.scripts.brain_games import main as welcome
 
 
 def main():
-    welcome()
+    print("Welcome to the Brain Games!")
     name = welcome_user()
     count = 0
     print("What number is missing in the progression?")
