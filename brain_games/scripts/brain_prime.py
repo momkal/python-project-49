@@ -3,14 +3,13 @@ from random import randint
 import prompt
 
 from brain_games.cli import welcome_user
-from brain_games.scripts.brain_games import main as welcome
 
 
 def main():
-    welcome()
+    print("Welcome to the Brain Games!")
     name = welcome_user()
     count = 0
-    print("Answer \"yes\" if the number is prime, otherwise answer \"no\".")
+    print("Answer \"yes\" if the number is prime. Otherwise answer \"no\".")
     while count < 3:
         number = randint(0,100)
         print(f"Question: {number}")

@@ -4,11 +4,10 @@ from random import randint
 import prompt
 
 from brain_games.cli import welcome_user
-from brain_games.scripts.brain_games import main as welcome
 
 
 def main():
-    welcome()
+    print("Welcome to the Brain Games!")
     name = welcome_user()
     count = 0
     print("Find the greatest common divisor of given numbers.")

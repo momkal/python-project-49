@@ -3,14 +3,13 @@ from random import choice, randint
 import prompt
 
 from brain_games.cli import welcome_user
-from brain_games.scripts.brain_games import main as welcome
 
 
 def main():
-    welcome()
+    print("Welcome to the Brain Games!")
     name = welcome_user()
     count = 0
-    print("What is theresult of the expression?")
+    print("What is the result of the expression?")
     operands = ["+", "-", "*"]
     while count < 3:
         number_first = randint(0, 100)

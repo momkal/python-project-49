@@ -3,11 +3,10 @@ from random import randint
 import prompt
 
 from brain_games.cli import welcome_user
-from brain_games.scripts.brain_games import main as welcome
 
 
 def main():
-    welcome()
+    print("Welcome to the Brain Games!")
     name = welcome_user()
     count = 0
     print("Answer \"yes\" if the number is even, otherwise answer \"no\".")
