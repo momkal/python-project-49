@@ -7,22 +7,103 @@
 Учебный проект Хекслета: https://ru.hexlet.io/programs/python
 Как это должно работать: https://asciinema.org/a/l40Lrk3midkLmNEOmgZErGnY7
 
+## Минимальные требования
+
+- Python 3.14.9+
+- uv
+
 ## Стек
 
 - Python
 
 ## Установка
 
-<!-- Опишите установку: клонирование, зависимости, переменные окружения -->
+Клонируйте репозиторий:
 
 ```bash
 git clone https://github.com/momkal/python-project-49.git
 cd python-project-49
 ```
 
+Соберите и установите приложение:
+
+```bash
+uv build
+uv tool install dist/*.whl
+```
+После установки команды игры будут доступны напрямую.
+
 ## Использование
 
-<!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
+### BRAIN EVEN
+
+Определите, является ли число чётным.
+
+Запуск:
+
+```bash
+brain-even
+```
+
+Демонстрация:
+
+[![asciicast](https://asciinema.org/a/LcAYt21NjttbKznl.svg)](https://asciinema.org/a/LcAYt21NjttbKznl)
+
+### BRAIN CALC
+
+Вычислите результат математического выражения.
+
+Запуск:
+
+```bash
+brain-calc
+```
+
+Демонстрация:
+
+[![asciicast](https://asciinema.org/a/KUdcc4rPLONdySqm.svg)](https://asciinema.org/a/KUdcc4rPLONdySqm)
+
+### BRAIN GCD
+
+Найдите наибольший общий делитель двух чисел.
+
+Запуск:
+
+```bash
+brain-gcd
+```
+
+Демонстрация:
+
+[![asciicast](https://asciinema.org/a/gC1qRUGD7qdaUu16.svg)](https://asciinema.org/a/gC1qRUGD7qdaUu16)
+
+### BRAIN PROGRESSION
+
+Найдите пропущенное число в арифметической прогрессии.
+
+Запуск:
+
+```bash
+brain-progression
+```
+
+Демонстрация:
+
+[![asciicast](https://asciinema.org/a/u3n2UfyDb7qn9Ctc.svg)](https://asciinema.org/a/u3n2UfyDb7qn9Ctc)
+
+### BRAIN PRIME
+
+Определите, является ли число простым.
+
+Запуск:
+
+```bash
+brain-prime
+```
+
+Демонстрация:
+
+[![asciicast](https://asciinema.org/a/2xtGVXiGoYh2c2W4.svg)](https://asciinema.org/a/2xtGVXiGoYh2c2W4)
 
 ---
 
@@ -36,16 +117,3 @@ cd python-project-49
 ## О Хекслете
 
 [Хекслет](https://ru.hexlet.io/) — школа программирования: авторские программы обучения с практикой, поддержкой наставников и реальными проектами, которые остаются в резюме. Этот репозиторий — один из таких проектов.
-
-Аскинемы
-
-
-brain-even        ---> https://asciinema.org/connect/ec5969c7-59cb-4f2d-bd36-2a029eadbaf1
-
-brain-calc        ---> https://asciinema.org/a/GUh92VApp20PZyDy
-
-brain-gcd         ---> https://asciinema.org/a/FseDRbWSkosV8cyW
-
-brain-progression ---> https://asciinema.org/a/N1LQPmmFiEqT3AKR
-
-brain-prime       ---> https://asciinema.org/a/cxTc8y8jWx9qx3FJ
