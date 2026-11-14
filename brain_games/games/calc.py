@@ -2,8 +2,12 @@ from random import choice, randint
 
 import prompt
 
+from brain_games.cli import welcome_user
 
-def main(name):
+
+def main():
+    print("Welcome to the Brain Games!")
+    name = welcome_user()
     count = 0
     print("What is the result of the expression?")
     operands = ["+", "-", "*"]

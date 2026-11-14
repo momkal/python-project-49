@@ -3,8 +3,12 @@ from random import randint
 
 import prompt
 
+from brain_games.cli import welcome_user
 
-def main(name):
+
+def main():
+    print("Welcome to the Brain Games!")
+    name = welcome_user()
     count = 0
     print("Find the greatest common divisor of given numbers.")
     while count < 3:
