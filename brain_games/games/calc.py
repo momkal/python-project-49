@@ -1,0 +1,31 @@
+from random import choice, randint
+
+import prompt
+
+
+def main(name):
+    count = 0
+    print("What is the result of the expression?")
+    operands = ["+", "-", "*"]
+    while count < 3:
+        number_first = randint(0, 100)
+        number_second = randint(0, 100)
+        operation = choice(operands)
+        print(f"Question: {number_first} {operation} {number_second}")
+        answer = prompt.string("Your answer: ")
+        match operation:
+            case "*":
+                answer_correct = number_first * number_second
+            case "-":
+                answer_correct = number_first - number_second
+            case "+":
+                answer_correct = number_first + number_second
+        if str(answer_correct) == answer:
+            print("Correct!")
+            count += 1
+        else:
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{answer_correct}'.")
+            print(f"Let's try again, {name}!")
+            break
+    if count == 3:
+        print(f"Congratulations, {name}!")

@@ -15,11 +15,11 @@ dependencies = [
 [project.scripts]
 python-project-49 = "python_project_49:main"
 brain-games = "brain_games.scripts.brain_games:main"
-brain-even = "brain_games.scripts.brain_even:main"
-brain-calc = "brain_games.scripts.brain_calc:main"
-brain-gcd = "brain_games.scripts.brain_gcd:main"
-brain-progression = "brain_games.scripts.brain_progression:main"
-brain-prime = "brain_games.scripts.brain_prime:main"
+brain-even = "brain_games.scripts.brain_even:run"
+brain-calc = "brain_games.scripts.brain_calc:run"
+brain-gcd = "brain_games.scripts.brain_gcd:run"
+brain-progression = "brain_games.scripts.brain_progression:run"
+brain-prime = "brain_games.scripts.brain_prime:run"
 
 [build-system]
 requires = ["hatchling"]
