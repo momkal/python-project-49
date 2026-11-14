@@ -25,7 +25,7 @@ def main():
         answer = prompt.string("Your answer: ")
         if answer == answer_correct:
             count += 1
-            print("Correct")
+            print("Correct!")
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was'{answer_correct}'.")
             print(f"Let's try again, {name}!")
