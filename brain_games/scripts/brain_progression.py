@@ -1,5 +1,6 @@
-from brain_games.games.progression import main
+from brain_games import engine
+from brain_games.games import progression
 
 
 def run():
-    main()
+    engine.run(progression)

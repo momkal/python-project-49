@@ -1,5 +1,6 @@
-from brain_games.games.prime import main
+from brain_games import engine
+from brain_games.games import prime
 
 
 def run():
-    main()
+    engine.run(prime)

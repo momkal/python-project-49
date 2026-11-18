@@ -1,5 +1,6 @@
-from brain_games.games.calc import main
+from brain_games import engine
+from brain_games.games import calc
 
 
 def run():
-    main()
+    engine.run(calc)

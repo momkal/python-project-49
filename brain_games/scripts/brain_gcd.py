@@ -1,5 +1,6 @@
-from brain_games.games.gcd import main
+from brain_games import engine
+from brain_games.games import gcd
 
 
 def run():
-    main()
+    engine.run(gcd)

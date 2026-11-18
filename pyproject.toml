@@ -13,7 +13,6 @@ dependencies = [
 ]
 
 [project.scripts]
-python-project-49 = "python_project_49:main"
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:run"
 brain-calc = "brain_games.scripts.brain_calc:run"

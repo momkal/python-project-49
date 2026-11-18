@@ -1,5 +1,6 @@
-from brain_games.games.even import main
+from brain_games import engine
+from brain_games.games import even
 
 
 def run():
-    main()
+    engine.run(even)
